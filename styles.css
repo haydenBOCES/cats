@@ -1,0 +1,102 @@
+/* CSS Document 
+
+#5C3317 - Dark Brown
+#804720 - Brown
+#F7A26C - Tangerine
+#CCAF9D - Desert Sand
+#E76A1A - Spanish Orange */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* header */
+
+header {
+	background-color: #804720;
+	text-align: center;
+	padding: 1%;
+}
+
+header h1 {
+	font-size: 2.5em;
+	color: #CCAF9D;
+}
+
+/* main */
+
+main {
+	background-color: #5C3317;
+	text-align: center;
+	color: #CCAF9D;
+}
+
+main h2 {
+	font-size: 2.25em;
+	padding: 1%;
+}
+
+main p {
+	font-size: 2em;
+	padding: 2%;
+}
+
+main ol {
+	font-size: 2em;
+	margin: 2%;
+}
+
+table {
+	margin: 0 auto;
+}
+
+td {
+	font-size: 2em;
+	padding: 2%;
+}
+
+.inputs {
+	padding: 1.5%;
+	margin: 5%;
+}
+
+.subRes {
+	display: inline;
+	font-size: 1.25em;
+	padding: 1.5%;
+	border-radius: 10px;
+	margin: 0 1%;
+}
+
+/* footer */
+
+footer {
+	background-color: #E76A1A;
+	text-align: center;
+}
+
+footer p {
+	padding: .5%;
+}
+
+nav {
+	background-color: #804720;
+	font-size: 2.5em;
+}
+
+nav li {
+	padding: 1.5%;
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	color: #CCAF9D;
+}
+
+nav a:hover {
+	background-color: #CCAF9D;
+	color: #804720;
+}
