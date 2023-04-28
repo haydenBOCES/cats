@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Newsletter | Cats Website</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header>
+		<h1>Cats - The World's #2 Pet</h1>
+		<img src="images/graphic_navbar.jpg" alt="A navigation bar featuring images of cats" usemap="#catmap">
+		<map name="catmap">
+			<area shape="rect" coords="5, 25, 80, 85" href="index.html" alt="A cat that leads to the home page">
+			<area shape="rect" coords="83, 25, 123, 85" href="history.html" alt="A cat that leads to the history page">
+			<area shape="rect" coords="126, 25, 216, 85" href="desc.html" alt="A cat that leads to the descriptions page">
+			<area shape="rect" coords="218, 25, 295, 85" href="char.html" alt="A cat that leads to the characteristics page">
+			<area shape="rect" coords="298, 25, 352, 85" href="temp.html" alt="A cat that leads to the temperament page">
+			<area shape="rect" coords="355, 25, 445, 85" href="news.html" alt="A cat that leads to the newsletter page">
+		</map>
+	</header>
+	
+	<main>
+		<h2>Subscribe to our newsletter!</h2>
+		<img src="images/cat5.jpg" alt="A cat sitting on a keyboard">
+		<p>Complete and submit this form to receive our monthly newsletter “Mad About Cats”, via email.</p>
+		<form action="mailto:email@sllboces.org" method="get">
+			<table>
+				<tr>
+					<td>
+						<label for="fName" class="labels">First Name:</label>
+						<input type="text" name="fName" class="inputs" required>
+					</td>
+					<td>
+						<label for="streetAdd" class="labels">Street Address</label>
+						<input type="text" name="streetAdd" class="inputs" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="lName" class="labels">Last Name:</label>
+						<input type="text" name="lName" class="inputs" required>
+					</td>
+					<td>
+						<label for="cityState" class="labels">City and State:</label>
+						<input type="text" name="cityState" class="inputs" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="email" class="labels">Email:</label><br>
+						<input type="email" name="email" class="inputs" required>
+					</td>
+					<td>
+						<label for="zip" class="labels">ZIP Code:</label><br>
+						<input type="number" name="zip" class="inputs" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="submit" name="Submit" class="subRes">
+						<input type="reset" name="Reset" class="subRes">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</main>
+	
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="history.html">History</a></li>
+				<li><a href="desc.html">Descriptions</a></li>
+				<li><a href="char.html">Characteristics</a></li>
+				<li><a href="temp.html">Temperament</a></li>
+				<li><a href="news.html">Newsletter</a></li>
+			</ul>
+		</nav>
+		<p>&copy; 2023 Seaway Software Development. All Rights Reserved.</p>
+		<p>Last Updated: 4/28/23</p>
+		<p>This site is for educational purposes only!!</p>
+		<p>**FAIR USE**</p>
+		<p>Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.</p>
+		<p>Fair use is a use permitted by copyright statute that might otherwise be infringing.</p>
+		<p>Non-profit, educational or personal use tips the balance in favor of fair use.</p>
+	</footer>
+</body>
+</html>
